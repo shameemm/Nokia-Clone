@@ -167,7 +167,7 @@ body {
     }
 }
 .body-sec-2{
-    background-image: url("/images/leadart_image.png");
+    background-image: url("images/leadart_image.png");
     background-size: contain;
     margin: 100px;
     height: 570px;
