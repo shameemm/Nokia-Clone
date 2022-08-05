@@ -362,7 +362,7 @@ body {
 }
 .footer {
     width: 100%;
-    height: 100%;
+    height: 200px;
     background-color: #001135;
 }
 .card:hover {
@@ -373,7 +373,9 @@ body {
     width: 100
 }
 .social-logo{
-    display:flex;
+    display: flex;
+    width: 38px;
+    margin-top: 38px;
 }
 .social-logo p{
     border: 1px solid #fff;
@@ -400,4 +402,22 @@ body {
     -o-border-radius:50%;
     color: #fff;
     border: #ffffff;
+}
+
+.soci-logo{
+    width: 30px;
+    border: 1px solid lightcyan;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.soci-logo img{
+    width: 90%;
+}
+.line1{
+    display: flex;
+    margin-left: 100px;
+}
+.soci-logo:hover{
+    cursor: pointer;
 }
